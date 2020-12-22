@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "detailedTechnology/mixin/ExampleMixin": {
+      "init()V": "Lnet/minecraft/class_442;method_25426()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "detailedTechnology/mixin/ExampleMixin": {
+        "init()V": "Lnet/minecraft/class_442;method_25426()V"
+      }
+    }
+  }
+}

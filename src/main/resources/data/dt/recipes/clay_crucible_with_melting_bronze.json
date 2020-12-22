@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dt:clay_crucible_with_melting_copper"
+    },{
+      "item": "dt:clay_crucible_with_melting_copper"
+    }, {
+      "item": "dt:clay_crucible_with_melting_copper"
+    },{
+      "item": "dt:clay_crucible_with_melting_tin"
+    }
+  ],
+  "result": {
+    "item": "dt:clay_crucible_with_melting_bronze",
+    "count": 4
+  }
+}
+

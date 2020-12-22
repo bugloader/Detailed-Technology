@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "dt:block/bronze_block" }
+  }
+}

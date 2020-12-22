@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": { "model": "dt:block/clay_ingot_model" },
+    "facing=east":  { "model": "dt:block/clay_ingot_model", "y":  90},
+    "facing=south": { "model": "dt:block/clay_ingot_model", "y": 180 },
+    "facing=west":  { "model": "dt:block/clay_ingot_model", "y": 270 }
+  }
+}
+

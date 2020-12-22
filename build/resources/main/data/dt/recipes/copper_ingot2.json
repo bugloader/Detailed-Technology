@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dt:copper_drop"
+    },{
+      "item": "dt:copper_drop"
+    },{
+      "item": "dt:copper_drop"
+    },{
+      "item": "dt:copper_drop"
+    }
+  ],
+  "result": {
+    "item": "dt:copper_ingot",
+    "count": 2
+  }
+}
+

@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-12-20 21:40:26 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2020-12-20 21:40:26 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 2584
+}

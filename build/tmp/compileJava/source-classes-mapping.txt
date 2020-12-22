@@ -1,0 +1,41 @@
+detailedTechnology/blocks/CopperBlock.java
+ detailedTechnology.blocks.CopperBlock
+detailedTechnology/blocks/StoneMileRunner.java
+ detailedTechnology.blocks.StoneMileRunner
+detailedTechnology/blocks/ClayModelIngot.java
+ detailedTechnology.blocks.ClayModelIngot
+ detailedTechnology.blocks.ClayModelIngot$1
+detailedTechnology/blocks/TinOreBlock.java
+ detailedTechnology.blocks.TinOreBlock
+detailedTechnology/gui/StoneMileScreen.java
+ detailedTechnology.gui.StoneMileScreen
+detailedTechnology/Interfaces/ImplementedInventory.java
+ detailedTechnology.Interfaces.ImplementedInventory
+detailedTechnology/blocks/StoneMile.java
+ detailedTechnology.blocks.StoneMile
+detailedTechnology/items/ClaySmallCrucibleWithLiquid.java
+ detailedTechnology.items.ClaySmallCrucibleWithLiquid
+detailedTechnology/gui/StoneMileScreenHandler.java
+ detailedTechnology.gui.StoneMileScreenHandler
+detailedTechnology/blockEntity/StoneMileEntity.java
+ detailedTechnology.blockEntity.StoneMileEntity
+detailedTechnology/mixin/ExampleMixin.java
+ detailedTechnology.mixin.ExampleMixin
+detailedTechnology/blocks/BronzeBlock.java
+ detailedTechnology.blocks.BronzeBlock
+detailedTechnology/DetailedTechnology.java
+ detailedTechnology.DetailedTechnology
+detailedTechnology/gui/CrucibleScreen.java
+ detailedTechnology.gui.CrucibleScreen
+detailedTechnology/DetailedTechnologyModClient.java
+ detailedTechnology.DetailedTechnologyModClient
+detailedTechnology/blockEntity/BrickCrucibleEntity.java
+ detailedTechnology.blockEntity.BrickCrucibleEntity
+detailedTechnology/blocks/BrickCrucible.java
+ detailedTechnology.blocks.BrickCrucible
+detailedTechnology/blocks/TinBlock.java
+ detailedTechnology.blocks.TinBlock
+detailedTechnology/blocks/CopperOreBlock.java
+ detailedTechnology.blocks.CopperOreBlock
+detailedTechnology/gui/CrucibleScreenHandler.java
+ detailedTechnology.gui.CrucibleScreenHandler

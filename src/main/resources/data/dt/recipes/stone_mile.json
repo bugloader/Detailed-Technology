@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WAW",
+    "W W",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:cobblestone"
+    },
+    "A": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "dt:stone_mile",
+    "count": 1
+  }
+}

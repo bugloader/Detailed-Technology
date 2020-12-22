@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": { "model": "dt:block/stone_mile_runner", "y": 180 },
+    "facing=east":  { "model": "dt:block/stone_mile_runner", "y": 270 },
+    "facing=south": { "model": "dt:block/stone_mile_runner" },
+    "facing=west":  { "model": "dt:block/stone_mile_runner", "y":  90}
+  }
+}
+

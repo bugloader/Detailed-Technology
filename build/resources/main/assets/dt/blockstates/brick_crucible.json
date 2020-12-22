@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": { "model": "dt:block/brick_crucible", "y": 180 },
+    "facing=east":  { "model": "dt:block/brick_crucible", "y": 270 },
+    "facing=south": { "model": "dt:block/brick_crucible" },
+    "facing=west":  { "model": "dt:block/brick_crucible", "y":  90}
+  }
+}
+

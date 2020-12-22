@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W W",
+    "W W",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "dt:wet_clay_small_crucible",
+    "count": 4
+  }
+}

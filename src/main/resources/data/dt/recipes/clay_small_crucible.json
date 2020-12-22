@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "dt:wet_clay_small_crucible"
+  },
+"result": "dt:clay_small_crucible",
+"experience": 1,
+"cookingtime": 200
+}

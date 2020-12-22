@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "dt:clay_crucible_with_copper"
+  },
+"result": "dt:clay_crucible_with_melting_copper",
+"experience": 1,
+"cookingtime": 400
+}

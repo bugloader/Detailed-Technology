@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dt:clay_small_crucible"
+    },{
+      "item": "dt:bronze_ingot"
+    }
+  ],
+  "result": {
+    "item": "dt:clay_crucible_with_bronze",
+    "count": 1
+  }
+}
+
