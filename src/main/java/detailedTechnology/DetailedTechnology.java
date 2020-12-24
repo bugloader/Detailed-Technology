@@ -15,7 +15,9 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.screenhandler.v1.ScreenHandlerRegistry;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.entity.BlockEntityType;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
+import net.minecraft.item.Item.Settings;
 import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.BuiltinRegistries;
@@ -56,7 +58,12 @@ public class DetailedTechnology implements ModInitializer {
 	public static final Item bronzeIngot = new Item(new FabricItemSettings().group(ITEM_GROUP));
 	public static final Item bronzeNugget = new Item(new FabricItemSettings().group(ITEM_GROUP));
 	public static final Item ironSharp = new Item(new FabricItemSettings().group(ITEM_GROUP));
-
+	
+	public static final Item Copper_Helmet = new ArmorItem(detailedTechnology.items.DetailedArmorMaterial.COPPER, EquipmentSlot.HEAD, new Item.Settings().group(ITEM_GROUP));
+	public static final Item Copper_Chest = new ArmorItem(detailedTechnology.items.DetailedArmorMaterial.COPPER, EquipmentSlot.CHEST, new Item.Settings().group(ITEM_GROUP));
+	public static final Item Copper_Leg = new ArmorItem(detailedTechnology.items.DetailedArmorMaterial.COPPER, EquipmentSlot.LEGS, new Item.Settings().group(ITEM_GROUP));
+	public static final Item Copper_Boots = new ArmorItem(detailedTechnology.items.DetailedArmorMaterial.COPPER, EquipmentSlot.FEET, new Item.Settings().group(ITEM_GROUP));
+	
 	public static final Item wetClaySmallCrucible = new Item(new FabricItemSettings().group(ITEM_GROUP));
 	public static final Item claySmallCrucible = new Item(new FabricItemSettings().group(ITEM_GROUP));
 	public static final Item claySmallCrucibleWithCopper = new Item(new FabricItemSettings().group(ITEM_GROUP));
@@ -158,6 +165,10 @@ public class DetailedTechnology implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID,"clay_crucible_with_melting_copper"), claySmallCrucibleWithMeltingCopper);
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID,"clay_crucible_with_melting_tin"), claySmallCrucibleWithMeltingTin);
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID,"clay_crucible_with_melting_bronze"), claySmallCrucibleWithMeltingBronze);
+		Registry.register(Registry.ITEM, new Identifier(MOD_ID,"copper_helmet"),Copper_Helmet);
+		Registry.register(Registry.ITEM, new Identifier(MOD_ID,"copper_chest"), Copper_Chest);
+		Registry.register(Registry.ITEM, new Identifier(MOD_ID,"copper_legs"), Copper_Leg);
+		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "copper_boots"), Copper_Boots);
 
 		crucibleScreenHandler = ScreenHandlerRegistry.registerSimple(
 				new Identifier(MOD_ID, "brick_crucible"),CrucibleScreenHandler::new);
